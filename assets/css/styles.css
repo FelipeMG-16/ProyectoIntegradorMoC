@@ -1,0 +1,38 @@
+header nav {
+   box-shadow: none;
+   background-color: #2D394B!important;
+}
+
+/* Colores para texto */
+.color-txt {
+   color:  #2D394B!important;
+}
+.color-txt-2 {
+   color: #697B96 !important;
+}
+.color-txt-3 {
+   color: #cfd7e7 !important;
+}
+.color-txt-4 {
+   color: #F2F4F8 !important;
+}
+
+/* Colores para background */
+.color-bg-header {
+   background-color:  #2D394B!important;
+}
+.color-bg-2 {
+   background-color: #697B96 !important;
+}
+.color-bg-body {
+   background-color: #F2F4F8 !important;
+}
+
+.color-border-btn {
+   border-color:#697B96 !important ;
+}
+/* Colores para carta */
+.color-card {
+   background: #81a3d611 !important;
+   box-shadow: 2px 2px 5px #2d394b3a;
+}
