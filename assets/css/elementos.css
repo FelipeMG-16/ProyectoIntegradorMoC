@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "Monserrat";
+  src: url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+}
+body{
+    font-family: "Monserrat";
+    font-size: 100%;
+    background: #F2F4F8;
+}
+.boton{
+    font-family: "Monserrat";
+    font-size: x-large;
+    width: 150px;
+    height: 70px;
+    background-color: #a5d4dc;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.boton:hover{
+    background-color: #415a80;
+    color: #F2F4F8;
+}
+/*Esta parte del css y la animacion no me queda claro al 100% pero si les gustapuedo estudiarlo para implementarlo y modificarlo a nuestro gusto*/
+a{
+    font-family:Roboto,sans-serif;
+    font-weight:900;
+    color:#000;
+    text-decoration:none
+}
+.centered{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%)
+}
+.h-button{
+    background:#fff;
+    padding:20px;
+    width:250px;
+    text-align:center
+}
+.h-button span{
+    display:inline-block;
+    min-width:.3em;
+    text-transform:uppercase;
+    transition:.25s cubic-bezier(0.5,-1,.5,2);
+    opacity:0;transform:translate(0,-20px)
+}
+.h-button:before{
+    content:attr(data-text);
+    position:absolute;
+    width:100%;
+    left:0;
+    transition:.25s cubic-bezier(0.5,-1,.5,2);
+    text-transform:uppercase;
+    letter-spacing:3.5px;
+    opacity:1;
+    transform:translate(0,0)
+}
+.h-button:focus:before,.h-button:hover:before{
+    opacity:0;
+    transform:translate(0,20px)
+}
+.h-button:focus span,.h-button:hover span{
+    opacity:1;
+    transform:translate(0,0)
+}
+
+
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side */
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
