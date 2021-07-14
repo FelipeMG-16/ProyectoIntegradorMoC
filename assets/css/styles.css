@@ -11,8 +11,15 @@ header nav {
    background-color:  #2D394B!important;
 }
 .color-bg-2 {
-   background: #d7e2e98f !important; /* Propuesta: Aqui iria uno de los colores que tenia Luis */
+   background: #81a3d611 !important;
+   box-shadow: 2px 2px 5px #2d394b3a;
 }
 .color-bg-body {
    background-color: #F2F4F8 !important;
+}
+.color-btn {
+   color: #EBB957 !important;
+}
+.color-bg-btn {
+   border-color:#9E721B !important ;
 }
