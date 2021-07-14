@@ -87,7 +87,7 @@ body {
      cursor: pointer;
  }
      
- 
+ /* Empieza la animación del carrusel 3d*/
  
  .content-carousel figure:nth-child(1){transform: rotateY(0deg)   /* paso 5*/
  translateZ(300px);}
@@ -121,7 +121,7 @@ body {
  }
  
  
- @keyframes rotar{
+ @keyframes rotar{    /* Keyframe de rotación*/
      from{
          transform: rotateY(0deg);
      }to{
@@ -129,7 +129,7 @@ body {
      }
  }
  
- @keyframes ripple{
+ @keyframes ripple{   /*Keyframe de escala de tamaños*/
    0%{
      transform: scale(0.8);
    }
@@ -142,3 +142,5 @@ body {
      transform: scale(0.8);
    }
  }
+
+ /*Termina la animación del carrusel 3d*/
