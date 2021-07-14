@@ -1,0 +1,14 @@
+body{
+    /*background: rgb(215, 226,233);*/
+    background: rgb(242, 244, 248);
+}
+
+.bg-snow{
+/*background: rgb(242, 244, 248);*/
+background: rgb(215, 226,233);
+}
+ 
+.bg-midwinter{
+    background: #2D394B;
+    border: none;
+}
