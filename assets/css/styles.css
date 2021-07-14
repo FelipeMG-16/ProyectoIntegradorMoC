@@ -21,13 +21,16 @@ header nav {
 .color-bg-header {
    background-color:  #2D394B!important;
 }
-.color-border-btn {
-   border-color:#697B96 !important ;
+.color-bg-2 {
+   background-color: #697B96 !important;
 }
 .color-bg-body {
    background-color: #F2F4F8 !important;
 }
 
+.color-border-btn {
+   border-color:#697B96 !important ;
+}
 /* Colores para carta */
 .color-card {
    background: #81a3d611 !important;
