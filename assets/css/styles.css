@@ -1,0 +1,18 @@
+header nav {
+   box-shadow: none;
+   background-color: #2D394B!important;
+
+}
+
+.color-txt {
+   color:  #2D394B!important;
+}
+.color-bg-header {
+   background-color:  #2D394B!important;
+}
+.color-bg-2 {
+   background: #d7e2e98f !important; /* Propuesta: Aqui iria uno de los colores que tenia Luis */
+}
+.color-bg-body {
+   background-color: #F2F4F8 !important;
+}
