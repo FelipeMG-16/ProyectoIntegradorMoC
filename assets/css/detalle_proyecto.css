@@ -1,9 +1,9 @@
-@font-face {
+@font-face { /*tipografia empleada en toda la página*/
   font-family: "Monserrat";
   src: url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 }
 body{
-    font-family: "Monserrat";
+    font-family: 'Montserrat', sans-serif;
     font-size: 100%;
     background: #F2F4F8;
 }
@@ -35,7 +35,7 @@ body{
     background: #415a80;
 } */
 
-header nav {
+/* header nav {
    background: #415a80;
    box-shadow: none;
-}
+} */
