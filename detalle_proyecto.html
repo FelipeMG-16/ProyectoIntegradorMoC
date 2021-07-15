@@ -23,6 +23,87 @@ main
 <body class="color-bg-body">
     <!-- Aqui empieza el nav -->
     <header class="fixed-top">
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+           <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarScroll"
+              aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+           </button>
+           <a class="navbar-brand ml-auto" href="index.html">MC</a>
+           <div class="collapse navbar-collapse fle " id="navbarScroll">
+              <ul class="navbar-nav m-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 200px;">
+                 <li class="nav-item dropdown">
+                    <a class="nav-link  color-txt-3" href="listado_proyectos.html#web" id="navbarScrollingDropdown" role="button"
+                       data-toggle="" aria-expanded="false">
+                       Desarrollo Web
+                    </a>
+                    
+                 </li>
+                 <li class="nav-item dropdown">
+                    <a class="nav-link color-txt-3" href="listado_proyectos.html#Movil"  role="button"
+                       >
+                       Desarrollo Movil
+                    </a>
+                    
+                 </li>
+                 <li class="nav-item dropdown">
+                    <a class="nav-link color-txt-3" href="listado_proyectos.html#Videojuegos"  role="button"
+                       >
+                       Videojuegos
+                    </a>
+                    
+                 </li>
+                 <li class="nav-item dropdown">
+                    <a class="nav-link color-txt-3" href="listado_proyectos.html#Escritorio"  role="button"
+                       >
+                       Desarrollo de Escritorio
+                    </a>
+                    
+                 </li>
+                 <li class="nav-item dropdown">
+                    <a class="nav-link color-txt-3" href="solicitudes_proyectos.html"  role="button"
+                       >
+                       Solicitud de proyecto
+                    </a>
+                    
+                 </li>
+                 
+              </ul>
+  
+              <form class="d-flex flex">
+                 <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+                 <button class="btn color-border-btn color-txt-3 mr-2" type="submit">Search</button>
+              </form>
+  
+           </div>
+          
+           
+           <div class="nav-item dropdown">
+              <button type="button" class="btn color-border-btn color-txt-3 dropdown-toggle color-txt-3"
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 Iniciar Sesión
+              </button>
+              <form class="dropdown-menu p-3">
+                 <div class="form-group">
+                   <label for="exampleDropdownFormEmail2">Correo Electronico</label>
+                   <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@ejemplo.com">
+                 </div>
+                 <div class="form-group">
+                   <label for="exampleDropdownFormPassword2">Contraseña</label>
+                   <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Contraseña">
+                 </div>
+                 <div class="form-group">
+                   <div class="form-check">
+                     <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+                     <label class="form-check-label" for="dropdownCheck2">
+                       Recuerdame
+                     </label>
+                   </div>
+                 </div>
+                 <button type="submit" class="btn btn-block color-bg-header color-txt-4">Iniciar Sesión</button>
+               </form>
+           </div>
+          
         <nav class="navbar navbar-expand-lg navbar-dark" style="background: #2D394B;">
             <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarScroll"
                 aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -231,8 +312,9 @@ main
                     <a type="submit" class="dropdown-item btn btn-primary text-center" href="#">Pagar ahora</a>
                 </div>
             </div>
+
         </nav>
-    </header>
+     </header>
 
     <main class="container-fluid mt-5 mr-5 ml-5 mb-5">
         <div class="row">
