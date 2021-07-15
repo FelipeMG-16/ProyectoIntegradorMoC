@@ -7,42 +7,35 @@ body{
     font-size: 100%;
     background: #F2F4F8;
 }
-.contenedor1{
-    float: left;
+/* .contenedor1{
+    
     padding: 0%;
     margin-top: 80px;
 }
 .contenedor2{
-    float:left;
+    
     min-width: 66%;
     padding:0%;
 }
 .contenedor3{
-    float:left;
+    
     align-content: center;
     min-height: 250px;
     margin-top: 80px;
 }
 .contenedor4{
-    float: right;
+    
     min-width: 100%;
     text-align: center;
 }
 .contenedor5{
-    float: right;
+    
     min-width: 100%;
     text-align: center;
     background: #415a80;
-}
+} */
 
 header nav {
    background: #415a80;
    box-shadow: none;
-}
-
-/* Estilo para foto de perfil */
-.card .img-usuario {
-   width: 20px;
-   float: left;
-   margin-right: 5px;
 }
