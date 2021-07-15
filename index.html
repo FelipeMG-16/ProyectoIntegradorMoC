@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
     
-    title>HOME</title>
+    <title>HOME</title>
   </head>
   <body class="color-bg-body">
     <!-- Emíeza el header que contiene el navbar-->
@@ -72,75 +72,30 @@
          </div>
         
          
-         <div class="nav-item dropdown dropleft">
+         <div class="nav-item dropdown">
             <button type="button" class="btn color-border-btn color-txt-3 dropdown-toggle color-txt-3"
                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-               Carrito
-               <span class="badge badge-light">4</span>
+               Iniciar Sesión
             </button>
-            <div class="dropdown-menu" style="width: 350px">
-               <h6 class="dropdown-header mb-1">Productos añadidos:</h6>
-               <div class="container ml-1">
-                  <div class="row">
-                     <div class="col-12">
-                        <div class="row mb-3 mt-2">
-                           <div class="col-4 m">
-                              <a href="detalle_proyecto.html">
-                                 <img src="https://oasify.com/wp-content/uploads/2020/11/910-005793-1.jpg" alt=""
-                                    style="width: 100px" />
-                              </a>
-                           </div>
-                           <div class="col-8 mt-2">
-                              <a class="font-weight-bolder text-black-50" href="detalle_proyecto.html">Titulo del
-                                 producto</a>
-                              <a class="font-weight-light" href="detalle_proyecto.html">Subtitulo</a><br />
-                              <p class="font-weight-light float-left">X2</p>
-                              <p class="font-weight-normal float-right mr-4">$5000</p>
-                           </div>
-                        </div>
-                        <!-- ¿ <hr> ? -->
-                        <div class="row mb-3">
-                           <div class="col-4">
-                              <a href="detalle_proyecto.html">
-                                 <img src="https://oasify.com/wp-content/uploads/2020/11/910-005793-1.jpg" alt=""
-                                    style="width: 100px" />
-                              </a>
-                           </div>
-                           <div class="col-8 mt-2">
-                              <a class="font-weight-bolder text-black-50" href="detalle_proyecto.html">Titulo del
-                                 producto</a>
-                              <a class="font-weight-light" href="detalle_proyecto.html">Subtitulo</a><br />
-                              <p class="font-weight-light float-left">X1</p>
-                              <p class="font-weight-normal float-right mr-4">$5000</p>
-                           </div>
-                        </div>
-                        <div class="row">
-                           <div class="col-4">
-                              <a href="detalle_proyecto.html">
-                                 <img src="https://oasify.com/wp-content/uploads/2020/11/910-005793-1.jpg" alt=""
-                                    style="width: 100px" />
-                              </a>
-                           </div>
-                           <div class="col-8 mt-2">
-                              <a class="font-weight-bolder text-black-50" href="detalle_proyecto.html">Titulo del
-                                 producto</a>
-                              <a class="font-weight-light" href="detalle_proyecto.html">Subtitulo</a><br />
-                              <p class="font-weight-light float-left">X1</p>
-                              <p class="font-weight-normal float-right mr-4">$5000</p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
+            <form class="dropdown-menu p-3">
+               <div class="form-group">
+                 <label for="exampleDropdownFormEmail2">Correo Electronico</label>
+                 <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@ejemplo.com">
                </div>
-               <div class="dropdown-item-text mb-1 mt-2">
-                  <p class="font-weight-bolder float-right mr-3">$6000</p>
-                  <p class="font-weight-light float-right mr-3">Total:</p>
+               <div class="form-group">
+                 <label for="exampleDropdownFormPassword2">Contraseña</label>
+                 <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Contraseña">
                </div>
-               <br />
-               <div class="dropdown-divider"></div>
-               <a type="submit" class="dropdown-item btn btn-primary text-center" href="#">Ir a mi carrito</a>
-               <a type="submit" class="dropdown-item btn btn-primary text-center" href="#">Pagar ahora</a>
-            </div>
+               <div class="form-group">
+                 <div class="form-check">
+                   <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+                   <label class="form-check-label" for="dropdownCheck2">
+                     Recuerdame
+                   </label>
+                 </div>
+               </div>
+               <button type="submit" class="btn btn-block color-bg-header color-txt-4">Iniciar Sesión</button>
+             </form>
          </div>
       </nav>
    </header>
@@ -393,21 +348,5 @@
       integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
       crossorigin="anonymous"></script>       
             
-
-
-
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
-    -->
   </body>
 </html>
