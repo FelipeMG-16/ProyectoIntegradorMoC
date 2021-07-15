@@ -15,7 +15,7 @@
 <body class="color-bg-body">
     <!-- Aqui empieza el nav -->
     <header class="fixed-top">
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background: #2D394B;">
             <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarScroll"
                 aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -86,16 +86,16 @@
                         </a>
                     </li>
                 </ul>
-
+    
                 <form class="d-flex flex">
                     <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success mr-2" type="submit">Search</button>
                 </form>
-
+    
             </div>
             <div class="nav-item ml-sm-auto">
-                <button type="button" class="btn btn-outline-success mr-2" data-toggle="modal"
-                    data-target="#modalUsuario" data-whatever="@mdo">Iniciar Sesión</button>
+                <button type="button" class="btn btn-outline-success mr-2" data-toggle="modal" data-target="#modalUsuario"
+                    data-whatever="@mdo">Iniciar Sesión</button>
                 <div class="modal fade" id="modalUsuario" tabindex="-1" aria-labelledby="exampleModalLabel"
                     aria-hidden="true">
                     <div class="modal-dialog">
@@ -111,8 +111,7 @@
                                 </li>
                             </ul>
                             <div class="tab-content" id="myTabContent">
-                                <div class="tab-pane fade show active" id="home" role="tabpanel"
-                                    aria-labelledby="home-tab">
+                                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                     <div class="modal-body">
                                         <form>
                                             <div class="form-group">
@@ -126,8 +125,7 @@
                                         </form>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                            data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                                         <button type="button" class="btn btn-primary">INICIAR SESIÓN</button>
                                     </div>
                                 </div>
@@ -137,8 +135,7 @@
                                         <div class="modal-body">
                                             <form>
                                                 <div class="form-group">
-                                                    <label for="email" class="col-form-label">Correo
-                                                        Electronico:</label>
+                                                    <label for="email" class="col-form-label">Correo Electronico:</label>
                                                     <input type="email" class="form-control" id="email">
                                                 </div>
                                                 <div class="form-group">
@@ -160,8 +157,8 @@
                 </div>
             </div>
             <div class="nav-item dropdown dropleft">
-                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
                     Carrito
                     <span class="badge badge-light">4</span>
                 </button>
@@ -173,8 +170,8 @@
                                 <div class="row mb-3 mt-2">
                                     <div class="col-4 m">
                                         <a href="">
-                                            <img src="https://oasify.com/wp-content/uploads/2020/11/910-005793-1.jpg"
-                                                alt="" style="width: 100px" />
+                                            <img src="https://oasify.com/wp-content/uploads/2020/11/910-005793-1.jpg" alt=""
+                                                style="width: 100px" />
                                         </a>
                                     </div>
                                     <div class="col-8 mt-2">
@@ -188,8 +185,8 @@
                                 <div class="row mb-3">
                                     <div class="col-4">
                                         <a href="">
-                                            <img src="https://oasify.com/wp-content/uploads/2020/11/910-005793-1.jpg"
-                                                alt="" style="width: 100px" />
+                                            <img src="https://oasify.com/wp-content/uploads/2020/11/910-005793-1.jpg" alt=""
+                                                style="width: 100px" />
                                         </a>
                                     </div>
                                     <div class="col-8 mt-2">
@@ -202,8 +199,8 @@
                                 <div class="row">
                                     <div class="col-4">
                                         <a href="">
-                                            <img src="https://oasify.com/wp-content/uploads/2020/11/910-005793-1.jpg"
-                                                alt="" style="width: 100px" />
+                                            <img src="https://oasify.com/wp-content/uploads/2020/11/910-005793-1.jpg" alt=""
+                                                style="width: 100px" />
                                         </a>
                                     </div>
                                     <div class="col-8 mt-2">
@@ -944,8 +941,78 @@
     </main>
 
 
-    <footer>
-
+    <footer class="footer-basic bg-snow">
+        <div class="social"><a href="#"><i class="icon ion-social-github"></i></a><a href="#"><i
+                    class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+        </div>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="index.html">Inicio</a></li>
+            <li class="list-inline-item"><a href="/quienes-somos.html">Quienes Somos</a></li>
+            <li class="list-inline-item"><a href="#" data-toggle="modal" data-target="#QuienesSomos">Preguntas
+                    Frecuentes</a>
+                <!-- Modal -->
+                <div class="modal fade" id="QuienesSomos" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Preguntas Frecuentes</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <label for="">Pregunta 1</label><br>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, quo! Voluptatum, odit.
+                                    Deleniti, veniam illum dolor nihil provident, eligendi in ea debitis, nulla
+                                    exercitationem
+                                    quisquam quae praesentium nobis laudantium ad.</p>
+                                <label for="">Pregunta 2</label><br>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, quo! Voluptatum, odit.
+                                    Deleniti, veniam illum dolor nihil provident, eligendi in ea debitis, nulla
+                                    exercitationem
+                                    quisquam quae praesentium nobis laudantium ad.</p>
+                                <label for="">Pregunta 3</label><br>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, quo! Voluptatum, odit.
+                                    Deleniti, veniam illum dolor nihil provident, eligendi in ea debitis, nulla
+                                    exercitationem
+                                    quisquam quae praesentium nobis laudantium ad.</p>
+                            </div>
+                            <div class="modal-footer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list-inline-item"><a href="/aviso-privacidad.html">Política de Privacidad</a></li>
+            <li class="list-inline-item"><a href="#" data-toggle="modal" data-target="#Contacto">Contacto</a>
+                <!-- Modal -->
+                <div class=" modal fade" id="Contacto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <label for="">Envianos un correo a mastersofcode@hotmail.com o anexa una explicación breve
+                                    en el sigueinte campo:</label><br><br>
+                                <textarea class="form-control"
+                                    placeholder="Escribe una breve descripción de no mas de 500 caracteres" rows="10"
+                                    cols="50"></textarea><br><br>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary">Enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+    
+        </ul>
+        <p class="copyright">Masters of Code © 2021</p>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
