@@ -11,11 +11,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <title>HOME</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    title>HOME</title>
   </head>
-  <body>
+  <body class="color-bg-body">
     <!-- Emíeza el header que contiene el navbar-->
-    <header class="mb-5 fixed-top">
+    <header class="mb-5 fixed-top color-bg-header">
        
     
         <div class="container-fluid  " id="cont-pag">
@@ -26,188 +27,215 @@
 
         
                           
-                            <nav  class="navbar navbar-expand-lg navbar-light " id="#navbar-example2">
-                              <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarScroll"
-                                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                              </button>
-                              <a class="navbar-brand ml-auto text-white" href="#">NOMBRE CHULO</a>
-                              <div class="collapse navbar-collapse fle " id="navbarScroll">
-                                <ul class="navbar-nav m-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 200px;">
-                                    <li class="nav-item dropdown">
-                                      <a class="nav-link dropdown-toggle text-white" href="#" id="navbarScrollingDropdown" role="button"
-                                          data-toggle="dropdown" aria-expanded="false">
-                                          Videojuegos
-                                      </a>
-                                      <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                                          <li><a class="dropdown-item " href="#">Action</a></li>
-                                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                                          <li>
-                                            <hr class="dropdown-divider">
-                                          </li>
-                                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                      </ul>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                      <a class="nav-link dropdown-toggle text-white" href="#" id="navbarScrollingDropdown"
-                                          data-toggle="dropdown" aria-expanded="false">
-                                          Anime
-                                      </a>
-                                      <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                                          <li><a class="dropdown-item" href="#">Action</a></li>
-                                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                                          <li>
-                                            <hr class="dropdown-divider">
-                                          </li>
-                                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                      </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                      <a class="nav-link text-white" href="foro.html">Foro</a>
-                                    </li>
+                  <header class="fixed-top">
+                    <nav class="navbar navbar-expand-lg navbar-dark">
+                       <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarScroll"
+                          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                       </button>
+                       <a class="navbar-brand ml-auto" href="index.html">MC</a>
+                       <div class="collapse navbar-collapse fle " id="navbarScroll">
+                          <ul class="navbar-nav m-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 200px;">
+                             <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle color-txt-3" href="#" id="navbarScrollingDropdown" role="button"
+                                   data-toggle="dropdown" aria-expanded="false">
+                                   Desarrollo Web
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                   <li><a class="dropdown-item" href="#">Hola</a></li>
+                                   <li><a class="dropdown-item" href="#">Hay que pensar en subcategorias</a></li>
+                                   <li>
+                                      <hr class="dropdown-divider">
+                                   </li>
+                                   <li><a class="dropdown-item" href="#">Ver todo</a></li>
                                 </ul>
-                    
-                                <form class="d-flex flex">
-                                    <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
-                                    <button class="btn btn-outline-success mr-2" type="submit">Search</button>
-                                </form>
-                    
-                              </div>
-                              <div class="nav-item ml-sm-auto">
-                                <button type="button" class="btn btn-outline-success mr-2" data-toggle="modal" data-target="#modalUsuario"
-                                    data-whatever="@mdo">Iniciar Sesión</button>
-                                <div class="modal fade" id="modalUsuario" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                    aria-hidden="true">
-                                    <div class="modal-dialog">
-                                      <div class="modal-content">
-                                          <ul class="nav nav-tabs" id="myTab" role="tablist">
-                                            <li class="nav-item" role="presentation">
-                                                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
-                                                  aria-controls="home" aria-selected="true">Iniciar Sesión</a>
-                                            </li>
-                                            <li class="nav-item" role="presentation">
-                                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
-                                                  aria-controls="profile" aria-selected="false">Crear Cuenta</a>
-                                            </li>
-                                          </ul>
-                                          <div class="tab-content" id="myTabContent">
-                                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                                <div class="modal-body">
-                                                  <form>
-                                                      <div class="form-group">
-                                                        <label for="email" class="col-form-label">Correo Electronico:</label>
-                                                        <input type="email" class="form-control" id="email">
-                                                      </div>
-                                                      <div class="form-group">
-                                                        <label for="contraseña" class="col-form-label">Contraseña:</label>
-                                                        <input type="password" class="form-control" id="contraseña">
-                                                      </div>
-                                                  </form>
-                                                </div>
-                                                <div class="modal-footer">
-                                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                                  <button type="button" class="btn btn-primary">INICIAR SESIÓN</button>
-                                                </div>
-                                            </div>
-                                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                                                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                                  <div class="modal-body">
-                                                      <form>
-                                                        <div class="form-group">
-                                                            <label for="email" class="col-form-label">Correo Electronico:</label>
-                                                            <input type="email" class="form-control" id="email">
-                                                        </div>
-                                                        <div class="form-group">
-                                                            <label for="contraseña" class="col-form-label">Contraseña:</label>
-                                                            <input type="password" class="form-control" id="contraseña">
-                                                        </div>
-                                                      </form>
-                                                  </div>
-                                                  <div class="modal-footer">
-                                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                                      <button type="button" class="btn btn-primary">CREAR CUENTA</button>
-                                                  </div>
-                                                </div>
-                                            </div>
-                                          </div>
-                                      </div>
-                                    </div>
-                                </div>
-                              </div>
-                              <div class="nav-item">
-                                <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#modalCarrito">
-                                    Carrito
-                                </button>
-                                <div class="modal fade" id="modalCarrito" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                    aria-hidden="true">
-                                    <div class="modal-dialog">
-                                      <div class="modal-content">
-                                          <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">Carrito</h5>
-                                            <!-- <h6 class="modal-title" id="exampleModalLabel">Total</h6> -->
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                          </div>
-                                          <div class="modal-body">
-                    
-                                            <div class="container-fluid border mb-3">
-                                                <div class="row">
-                                                  <h5 class="col-12">Titulo de producto</h5>
-                                                  <img src="https://images-na.ssl-images-amazon.com/images/I/7156DLyUsYL._AC_SL1500_.jpg"
-                                                      alt="" class="col-3">
-                                                  <p class="col-9">
-                                                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi iste qui vitae
-                                                      veniam assumenda repellat libero
-                                                  </p>
-                                                </div>
-                                            </div>
-                                            <div class="container-fluid border mb-3">
-                                                <div class="row">
-                                                  <h5 class="col-12">Titulo de producto</h5>
-                                                  <img src="https://images-na.ssl-images-amazon.com/images/I/7156DLyUsYL._AC_SL1500_.jpg"
-                                                      alt="" class="col-3">
-                                                  <p class="col-9">
-                                                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi iste qui vitae
-                                                      veniam assumenda repellat libero
-                                                  </p>
-                                                </div>
-                                            </div>
-                                            <div class="container-fluid border mb-3">
-                                                <div class="row">
-                                                  <h5 class="col-12">Titulo de producto</h5>
-                                                  <img src="https://images-na.ssl-images-amazon.com/images/I/7156DLyUsYL._AC_SL1500_.jpg"
-                                                      alt="" class="col-3">
-                                                  <p class="col-9">
-                                                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi iste qui vitae
-                                                      veniam assumenda repellat libero
-                                                  </p>
-                                                </div>
-                                            </div>
-                                            <div class="container-fluid border">
-                                                <div class="row">
-                                                  <h5 class="col-12">Titulo de producto</h5>
-                                                  <img src="https://images-na.ssl-images-amazon.com/images/I/7156DLyUsYL._AC_SL1500_.jpg"
-                                                      alt="" class="col-3">
-                                                  <p class="col-9">
-                                                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi iste qui vitae
-                                                      veniam assumenda repellat libero
-                                                  </p>
-                                                </div>
-                                            </div>
-                                            <div class="align-items-end">
-                                                <h6 class="modal-title" id="exampleModalLabel">Total: $1000000000</h6>
-                                            </div>
-                                          </div>
-                                          <div class="modal-footer">
+                             </li>
+                             <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle color-txt-3" href="#" id="navbarScrollingDropdown" role="button"
+                                   data-toggle="dropdown" aria-expanded="false">
+                                   Desarrollo Movil
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                   <li><a class="dropdown-item" href="#">Action</a></li>
+                                   <li><a class="dropdown-item" href="#">Another action</a></li>
+                                   <li>
+                                      <hr class="dropdown-divider">
+                                   </li>
+                                   <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                             </li>
+                             <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle color-txt-3" href="#" id="navbarScrollingDropdown" role="button"
+                                   data-toggle="dropdown" aria-expanded="false">
+                                   Videojuegos
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                   <li><a class="dropdown-item" href="#">Action</a></li>
+                                   <li><a class="dropdown-item" href="#">Another action</a></li>
+                                   <li>
+                                      <hr class="dropdown-divider">
+                                   </li>
+                                   <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                             </li>
+                             <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle color-txt-3" href="#" id="navbarScrollingDropdown" role="button"
+                                   data-toggle="dropdown" aria-expanded="false">
+                                   Desarrollo de Escritorio
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                   <li><a class="dropdown-item" href="#">Action</a></li>
+                                   <li><a class="dropdown-item" href="#">Another action</a></li>
+                                   <li>
+                                      <hr class="dropdown-divider">
+                                   </li>
+                                   <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                             </li>
+                             <li class="nav-item">
+                                <a class="nav-link" href="#" id="navbarScrollingDropdown" role="button" data-toggle="dropdown"
+                                   aria-expanded="false">
+                                   ¿Otra opcion?
+                                </a>
+                             </li>
+                          </ul>
+              
+                          <form class="d-flex flex">
+                             <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+                             <button class="btn color-border-btn color-txt-3 mr-2" type="submit">Search</button>
+                          </form>
+              
+                       </div>
+                       <div class="nav-item ml-sm-auto">
+                          <button type="button" class="btn color-border-btn color-txt-3 mr-2" data-toggle="modal" data-target="#modalUsuario"
+                             data-whatever="@mdo">Iniciar Sesión</button>
+                          <div class="modal fade" id="modalUsuario" tabindex="-1" aria-labelledby="exampleModalLabel"
+                             aria-hidden="true">
+                             <div class="modal-dialog">
+                                <div class="modal-content">
+                                   <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                      <li class="nav-item" role="presentation">
+                                         <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                            aria-controls="home" aria-selected="true">Iniciar Sesión</a>
+                                      </li>
+                                      <li class="nav-item" role="presentation">
+                                         <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                                            aria-controls="profile" aria-selected="false">Crear Cuenta</a>
+                                      </li>
+                                   </ul>
+                                   <div class="tab-content" id="myTabContent">
+                                      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                         <div class="modal-body">
+                                            <form>
+                                               <div class="form-group">
+                                                  <label for="email" class="col-form-label">Correo Electronico:</label>
+                                                  <input type="email" class="form-control" id="email">
+                                               </div>
+                                               <div class="form-group">
+                                                  <label for="contraseña" class="col-form-label">Contraseña:</label>
+                                                  <input type="password" class="form-control" id="contraseña">
+                                               </div>
+                                            </form>
+                                         </div>
+                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">Pagar</button>
-                                          </div>
+                                            <button type="button" class="btn btn-primary">INICIAR SESIÓN</button>
+                                         </div>
                                       </div>
-                                    </div>
+                                      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                            <div class="modal-body">
+                                               <form>
+                                                  <div class="form-group">
+                                                     <label for="email" class="col-form-label">Correo Electronico:</label>
+                                                     <input type="email" class="form-control" id="email">
+                                                  </div>
+                                                  <div class="form-group">
+                                                     <label for="contraseña" class="col-form-label">Contraseña:</label>
+                                                     <input type="password" class="form-control" id="contraseña">
+                                                  </div>
+                                               </form>
+                                            </div>
+                                            <div class="modal-footer">
+                                               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                               <button type="button" class="btn btn-primary">CREAR CUENTA</button>
+                                            </div>
+                                         </div>
+                                      </div>
+                                   </div>
                                 </div>
-                              </div>
-                          </nav>
+                             </div>
+                          </div>
+                       </div>
+                       <div class="nav-item dropdown dropleft">
+                          <button type="button" class="btn color-border-btn color-txt-3 dropdown-toggle color-txt-3" data-toggle="dropdown" aria-haspopup="true"
+                             aria-expanded="false">
+                             Carrito
+                             <span class="badge badge-light">4</span>
+                          </button>
+                          <div class="dropdown-menu" style="width: 350px">
+                             <h6 class="dropdown-header mb-1">Productos añadidos:</h6>
+                             <div class="container ml-1">
+                                <div class="row">
+                                   <div class="col-12">
+                                      <div class="row mb-3 mt-2">
+                                         <div class="col-4 m">
+                                            <a href="">
+                                               <img src="https://oasify.com/wp-content/uploads/2020/11/910-005793-1.jpg" alt=""
+                                                  style="width: 100px" />
+                                            </a>
+                                         </div>
+                                         <div class="col-8 mt-2">
+                                            <a class="font-weight-bolder text-black-50" href="">Titulo del producto</a>
+                                            <a class="font-weight-light" href="">Subtitulo</a><br />
+                                            <p class="font-weight-light float-left">X2</p>
+                                            <p class="font-weight-normal float-right mr-4">$5000</p>
+                                         </div>
+                                      </div>
+                                      <!-- ¿ <hr> ? -->
+                                      <div class="row mb-3">
+                                         <div class="col-4">
+                                            <a href="">
+                                               <img src="https://oasify.com/wp-content/uploads/2020/11/910-005793-1.jpg" alt=""
+                                                  style="width: 100px" />
+                                            </a>
+                                         </div>
+                                         <div class="col-8 mt-2">
+                                            <a class="font-weight-bolder text-black-50" href="">Titulo del producto</a>
+                                            <a class="font-weight-light" href="">Subtitulo</a><br />
+                                            <p class="font-weight-light float-left">X1</p>
+                                            <p class="font-weight-normal float-right mr-4">$5000</p>
+                                         </div>
+                                      </div>
+                                      <div class="row">
+                                         <div class="col-4">
+                                            <a href="">
+                                               <img src="https://oasify.com/wp-content/uploads/2020/11/910-005793-1.jpg" alt=""
+                                                  style="width: 100px" />
+                                            </a>
+                                         </div>
+                                         <div class="col-8 mt-2">
+                                            <a class="font-weight-bolder text-black-50" href="">Titulo del producto</a>
+                                            <a class="font-weight-light" href="">Subtitulo</a><br />
+                                            <p class="font-weight-light float-left">X1</p>
+                                            <p class="font-weight-normal float-right mr-4">$5000</p>
+                                         </div>
+                                      </div>
+                                   </div>
+                                </div>
+                             </div>
+                             <div class="dropdown-item-text mb-1 mt-2">
+                                <p class="font-weight-bolder float-right mr-3">$6000</p>
+                                <p class="font-weight-light float-right mr-3">Total:</p>
+                             </div>
+                             <br />
+                             <div class="dropdown-divider"></div>
+                             <a type="submit" class="dropdown-item btn btn-primary text-center" href="#">Ir a mi carrito</a>
+                             <a type="submit" class="dropdown-item btn btn-primary text-center" href="#">Pagar ahora</a>
+                          </div>
+                       </div>
+                    </nav>
+                 </header>
                         
                     
                     
@@ -292,43 +320,60 @@
 
         <!--Empieza sección de destacados-->
         <div class="container-fluid  mt-4 mr-10 " id="cont-destacados"> 
-            <h1>Destadacos</h1>
-            <div class="row  ">
-                
-                <div class="col pt-2">
-                    <div class="card mb-3 " style="max-width: 540px;">
-                        <div class="row no-gutters">
-                          <div class="col-md-6">
-                            <img src="assets/Images/markZuckerberg.jpg" alt="...">
-                          </div>
-                          <div class="col-md-6">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur at natus aperiam placeat! Dolores ullam doloremque et aliquid eveniet iste veniam odit similique, autem natus amet ducimus</p>
-                              <p class="card-text"><small class="text-muted"></small></p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                </div>
-                <div class="col pt-2">
-                    <div class="card mb-3" style="max-width: 540px;">
-                        <div class="row no-gutters">
-                          <div class="col-md-6">
-                            <img src="assets/Images/jeff.jpg" alt="...">
-                          </div>
-                          <div class="col-md-6">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dignissimos ut assumenda quod, doloremque saepe nam, placeat porro repellat consequatur rerum asperiores velit ipsam autem. </p>
-                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                </div>
-                
-            </div>
+            <h1 class="color-txt-3">Destacados</h1>
+            <div class="cajita">
+              <div class="imagen-destacado">
+                  <img src="" alt=""> 
+                  <a href="perfil_usuario.html" > Ver más</a>
+                  
+              </div>
+              
+              <div class="contenido">
+                  <h2>Eduardo Gutiérrez <br><span>Desarrollador de Software</span></h2>
+                  
+              </div>
+              
+          </div>
+      
+          <div class="cajita">
+              <div class="imagen-destacado">
+                  <img src="" alt="">
+              </div>
+              <div class="contenido">
+                  <h2>Astrik Torres <br><span>Desarrollador de Software</span></h2>
+                  <a href="perfil_usuario.html">Ver más</a>
+                  
+              </div>
+          </div>
+          <div class="cajita">
+              <div class="imagen-destacado">
+                  <img src="" alt="">
+              </div>
+              <div class="contenido">
+                  <h2>Diego Suárez <br><span>Desarrollador de Software</span></h2>
+                  <a href="perfil_usuario.html">Ver más</a>
+              </div>
+          </div>
+          
+          <div class="cajita">
+              <div class="imagen-destacado">
+                  <img src="" alt="">
+              </div>
+              <div class="contenido">
+                  <h2>Luis Martínez <br><span>Desarrollador de Software</span></h2>
+                  <a href="perfil_usuario.html">Ver más</a>
+              </div>
+          </div>
+      
+          <div class="cajita">
+              <div class="imagen-destacado">
+                  <img src="" alt="">
+              </div>
+              <div class="contenido">
+                  <h2>Felipe de Jesus Maqueda <br><span>Desarrollador de Software</span></h2>
+                  <a href="perfil_usuario.html">Ver más</a>
+              </div>
+          </div>
         </div>
         <!--Termina sección de destacados-->
 
@@ -340,15 +385,15 @@
                   
                     <div class="content-all  ">
                         <div class="content-carousel">
-                          <figure><a href="#"><img src="assets/Images/desarrollo-front.jpg" alt=""></a></figure>
-                          <figure><a href="#"><img src="assets/Images/back-dev.png" alt=""></a></figure>
-                          <figure><a href="#"><img src="assets/Images/aplicaciones-mov.jpg" alt=""></a></figure>
-                          <figure><a href="#"><img src="assets/Images/database.jpg" alt=""></a></figure>
-                          <figure><a href="#"><img src="assets/Images/business-ai.jpg" alt=""></a></figure>
+                          <figure><a href="listado_proyectos.html"><img src="assets/Images/desarrollo-front.jpg" alt=""></a></figure>
+                          <figure><a href="#"><img src="listado_proyectos.html" alt=""></a></figure>
+                          <figure><a href="#"><img src="listado_proyectos.html" alt=""></a></figure>
+                          <figure><a href="#"><img src="listado_proyectos.html" alt=""></a></figure>
+                          <figure><a href="#"><img src="listado_proyectos.html" alt=""></a></figure>
           
                         </div>
                       </div>
-                
+                      
                 </div>  
             </div>
         </div>
@@ -382,44 +427,7 @@
         
     </main>
 
-<footer class="pt-4 my-md-5 pt-md-5 border-top">
-        <div class="row">
-          <div class="col-12 col-md">
-            <img class="mb-2" src="/docs/4.6/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
-            <small class="d-block mb-3 text-muted">© 2017-2021</small>
-          </div>
-          <div class="col-6 col-md">
-            <h5>Features</h5>
-            <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="#">Cool stuff</a></li>
-              <li><a class="text-muted" href="#">Random feature</a></li>
-              <li><a class="text-muted" href="#">Team feature</a></li>
-              <li><a class="text-muted" href="#">Stuff for developers</a></li>
-              <li><a class="text-muted" href="#">Another one</a></li>
-              <li><a class="text-muted" href="#">Last time</a></li>
-            </ul>
-          </div>
-          <div class="col-6 col-md">
-            <h5>Resources</h5>
-            <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="#">Resource</a></li>
-              <li><a class="text-muted" href="#">Resource name</a></li>
-              <li><a class="text-muted" href="#">Another resource</a></li>
-              <li><a class="text-muted" href="#">Final resource</a></li>
-            </ul>
-          </div>
-          <div class="col-6 col-md">
-            <h5>About</h5>
-            <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="#">Team</a></li>
-              <li><a class="text-muted" href="#">Locations</a></li>
-              <li><a class="text-muted" href="#">Privacy</a></li>
-              <li><a class="text-muted" href="#">Terms</a></li>
-            </ul>
-          </div>
-        </div>
-      
-</footer>
+
             
             
 
