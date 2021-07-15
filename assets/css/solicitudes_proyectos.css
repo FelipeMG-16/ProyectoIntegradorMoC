@@ -12,3 +12,22 @@ background: rgb(215, 226,233);
     background: #2D394B;
     border: none;
 }
+
+header nav {
+    box-shadow: none;
+    background-color: #2D394B!important;
+ }
+
+ /* Colores para texto */
+.color-txt {
+    color:  #2D394B!important;
+ }
+ .color-txt-2 {
+    color: #697B96 !important;
+ }
+ .color-txt-3 {
+    color: #cfd7e7 !important;
+ }
+ .color-txt-4 {
+    color: #F2F4F8 !important;
+ }
