@@ -3,7 +3,7 @@
   src: url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 }
 body{
-    font-family: "Monserrat";
+    font-family: 'Montserrat', sans-serif;
     font-size: 100%;
     background: #F2F4F8;
 }
